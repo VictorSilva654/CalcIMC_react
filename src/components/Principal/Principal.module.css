@@ -1,0 +1,36 @@
+.h1 {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 2em;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+.label {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.input {
+    margin-bottom: 16px;
+    text-align: center;
+    padding: 14px;
+}
+
+.button {
+    background-color: #5F6064;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.button:hover {
+    background-color: #A7A7A7;
+    border-bottom: 3px solid #393939;
+}
